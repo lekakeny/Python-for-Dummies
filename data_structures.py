@@ -33,6 +33,9 @@ class Node:
         self.__next_node = new_next
 
 
+"Define the list"
+
+
 class SinglyLinkedList:
     # Constructor
     def __init__(self):
@@ -86,7 +89,7 @@ class SinglyLinkedList:
     def print_list(self):
         current = self.__head.get_next()
         while current:
-            print(current.get_data)
+            print(current.get_data())
             current = current.get_next()
 
 
